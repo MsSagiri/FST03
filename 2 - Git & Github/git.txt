@@ -1,0 +1,28 @@
+- Git version
+
+git --version
+
+- Configure Git
+git config --global user.name "username"
+git config --global user.email "Email"
+git config user.name
+git config user.email
+
+- Legends
+U - Untracked 
+A - Added
+M - Modified 
+
+- Initialized Repository
+git init 
+
+- Git Three Stage 
+
+- Check the Status
+git Status
+
+- Add file to the staging area
+git add . 
+
+- Create a commit 
+git commit -m "This is a description"
