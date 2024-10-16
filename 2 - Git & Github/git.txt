@@ -45,3 +45,9 @@ git switch [branch_name]
 
 - Merging Branch to Main Branch
 git merge [branch_name]
+
+- Delete a Branch
+git branch -d [branch_name]
+
+- Confirm connection to the remote Repository
+git remove -v 
