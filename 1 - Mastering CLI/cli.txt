@@ -1,0 +1,18 @@
+- Make Directory 
+mkdir [Directory_name]
+
+- Remove directory 
+rmdir [Directory_name]
+
+- Print / Present Working directory
+pwd
+
+- Change Directory
+cd [Directory_name]
+
+- Create File 
+touch [file_name.extension]
+
+- Delete File 
+rm [file_name.extension]
+
