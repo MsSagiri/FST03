@@ -1,0 +1,80 @@
+#text-styling {
+  /* Font fallback - if not available it will choose the next font that it have. */
+  /* Default Font Style for san-serif - Arial */
+  font-family: "Courier New", Courier, monospace;
+
+  /* Font Weight */
+  font-weight: 100;
+  font-weight: 200;
+  font-weight: 300;
+  font-weight: 400;
+  font-weight: 500;
+  font-weight: 600;
+  font-weight: 700;
+  font-weight: 800;
+  font-weight: 900;
+  font-weight: 950;
+
+  /* Font Weight - Keyword */
+  font-weight: bold;
+  font-weight: lighter;
+  font-weight: normal;
+  font-weight: bolder;
+
+  /* Font Style */
+  font-style: italic;
+  font-style: oblique;
+  font-style: normal;
+
+  /* Line Height */
+  line-height: normal;
+  line-height: 3;
+  line-height: 150%;
+  line-height: 25px;
+
+  /* Letter Spacing */
+  letter-spacing: 2px;
+  letter-spacing: normal;
+  letter-spacing: -1px;
+}
+
+#text-decoration {
+  text-decoration-line: none;
+  text-decoration-line: underline;
+  text-decoration-line: overline;
+  text-decoration-line: line-through;
+
+  text-decoration-style: solid;
+  text-decoration-style: dotted;
+  text-decoration-style: wavy;
+  text-decoration-style: double;
+
+  text-decoration-style: solid;
+  text-decoration-style: dotted;
+  text-decoration-style: wavy;
+  text-decoration-style: double;
+  text-decoration-color: tomato;
+  text-decoration-thickness: 3px;
+  text-decoration-thickness: 30%;
+  text-decoration: solid red line-through 3px;
+}
+
+#colors {
+  color: orange;
+  background-color: grey;
+  /* 0-255 */
+  color: rgb(55, 63, 171);
+  /* Alpha value - 0 = transparent - 1 = Fully Opaque*/
+  color: rgba(55, 63, 171, 0.8);
+}
+
+#absolute-unit-px {
+  font-size: 24px;
+}
+#relative-unit-em {
+  font-size: 2em;
+}
+
+#relative-unit-rem {
+  font-size: 3rem;
+}

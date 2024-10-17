@@ -1,0 +1,31 @@
+* {
+  font-size: 25px;
+}
+span {
+  color: white;
+  background-color: tomato;
+}
+.intro-paragraphs {
+  color: cyan;
+  background-color: gray;
+}
+#main-heading {
+  color: green;
+  font-size: 40px;
+}
+h2,
+h1,
+.about-content {
+  color: blue;
+}
+.article-container p {
+  color: red;
+}
+a:hover {
+  color: yellow;
+  background-color: green;
+  font-size: 24px;
+}
+a:active {
+  color: tomato;
+}
