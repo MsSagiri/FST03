@@ -1,0 +1,28 @@
+/* Relative */
+/* Relative to its original position */
+#relative {
+  background-color: #fc0;
+  position: relative;
+  /* top, right, bottom, left */
+  top: 80px;
+  left: 10px;
+}
+/* Fixed */
+/* relative to the viewport */
+/* stays at the same palce when you scroll. */
+#fixed {
+  background-color: #f00;
+  position: fixed;
+  /* top, right, bottom, left */
+  bottom: 0;
+  right: 0;
+}
+
+/* Sticky */
+/* Starts as relative. When it hits a certain point, it will stick to it*/
+#sticky {
+  background-color: #3c3;
+  position: sticky;
+  /* top, right, bottom, left */
+  top: 0px;
+}
