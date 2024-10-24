@@ -61,29 +61,27 @@ function deleteOrComplete(event) {
 }
 
 function filterTodos() {
-  function filterTodos(event) {
-    const todos = todoList.childNodes;
-    const targetValue = event.target.value;
-    todos.forEach(function (todo) {
-      switch (targetValue) {
-        case "all":
+  const todos = todoList.childNodes;
+  const targetValue = event.target.value;
+  todos.forEach(function (todo) {
+    switch (targetValue) {
+      case "all":
+        todo.style.display = "flex";
+        break;
+      case "completed":
+        if (todo.classList.contains("completed")) {
           todo.style.display = "flex";
-          break;
-        case "completed":
-          if (todo.classList.contains("completed")) {
-            todo.style.display = "flex";
-          } else {
-            todo.style.display = "none";
-          }
-          break;
-        case "uncompleted":
-          if (!todo.classList.contains("completed")) {
-            todo.style.display = "flex";
-          } else {
-            todo.style.display = "none";
-          }
-          break;
-      }
-    });
-  }
+        } else {
+          todo.style.display = "none";
+        }
+        break;
+      case "uncompleted":
+        if (!todo.classList.contains("completed")) {
+          todo.style.display = "flex";
+        } else {
+          todo.style.display = "none";
+        }
+        break;
+    }
+  });
 }
